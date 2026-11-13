@@ -1,0 +1,75 @@
+
+# ==============================
+# JAVA / SPRING BOOT / MAVEN
+# ==============================
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper files should NOT be ignored
+# Keep mvnw, mvnw.cmd and .mvn/wrapper/
+
+# ==============================
+# INTELLIJ IDEA
+# ==============================
+
+.idea/
+*.iml
+out/
+
+# ==============================
+# NEXT.JS / NODE.JS
+# ==============================
+
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==============================
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Private keys and certificates
+private.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# ==============================
+# LOGS
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# OPERATING SYSTEM
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# TEMPORARY FILES
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.bak
